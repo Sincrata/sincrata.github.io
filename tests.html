@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jawbreaker Bat Dollmaker Tests</title>
+    <link rel="stylesheet" href="css/dollmaker.css">
+    <link rel="stylesheet" href="css/jawbreaker.css">
+    <style>
+        #image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            color: black;
+        }
+
+        .image img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="feature"><img data-type="body" data-feature="straight" src="assets/dollmakers/jawbreaker-bat/body/straight.png">Straight</div>
+    <div class="feature"><img data-type="body" data-feature="curled" src="assets/dollmakers/jawbreaker-bat/body/curled.png">Curled</div>
+    <div class="feature"><img data-type="body" data-feature="curled" src="assets/dollmakers/jawbreaker-bat/body/curled.png">Curled</div>
+                
+
+    <main>
+        <div id="image-grid" style="color: black;">
+
+        </div>
+
+
+    </main>
+
+    <script>
+        async function main() {
+
+
+            try {
+                const res = await fetch('/scripts/traits.json');
+
+                const masterlist = await res.json();
+                const grid = document.getElementById("image-grid");
+
+                for (const [category, features] of Object.entries(masterlist)) {
+                    for (const [feats, feature] of Object.entries(features)) {
+                        for (const [image, link] of Object.entries(feature)) {
+
+                            if (link === "none") {
+                                continue;
+                            }
+
+                            let image_div = document.createElement('div');
+                            image_div.className = "image";
+
+                            let img = document.createElement('img');
+
+
+
+                            img.setAttribute("src", link);
+                            image_div.appendChild(img);
+                            image_div.appendChild(document.createTextNode(feats));
+                            image_div.appendChild(document.createTextNode(image));
+
+                            grid.appendChild(image_div);
+                        }
+                    }
+                }
+
+            } catch (error) {
+
+            }
+        }
+        main();
+    </script>
+</body>
+
+</html>

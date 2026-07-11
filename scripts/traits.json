@@ -1,0 +1,414 @@
+{
+    "body": {
+        "straight": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/body/straight-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/body/straight-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/body/straight-preview.png"
+        },
+        "curled": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/body/curled-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/body/curled-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/body/curled-preview.png"
+        }
+    },
+    "teeth": {
+        "teeth": {
+            "base": "/assets/dollmakers/jawbreaker-bat/teeth/teeth-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/teeth/teeth-preview.png"
+        }
+    },
+    "markings": {
+        "none": {
+            "base-straight": "none",
+            "base-curled": "none",
+            "preview": "/assets/dollmakers/jawbreaker-bat/markings/none-preview.png"
+        },
+        "gradient": {
+            "base-straight": "/assets/dollmakers/jawbreaker-bat/markings/gradient-straight-base.png",
+            "base-curled": "/assets/dollmakers/jawbreaker-bat/markings/gradient-curled-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/markings/gradient-preview.png"
+        },
+        "split": {
+            "base-straight": "/assets/dollmakers/jawbreaker-bat/markings/split-straight-base.png",
+            "base-curled": "/assets/dollmakers/jawbreaker-bat/markings/split-curled-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/markings/split-preview.png"
+        },
+        "striped": {
+            "base-straight": "/assets/dollmakers/jawbreaker-bat/markings/striped-straight-base.png",
+            "base-curled": "/assets/dollmakers/jawbreaker-bat/markings/striped-curled-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/markings/striped-preview.png"
+        },
+        "frog": {
+            "base-straight": "/assets/dollmakers/jawbreaker-bat/markings/frog-straight-base.png",
+            "base-curled": "/assets/dollmakers/jawbreaker-bat/markings/frog-curled-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/markings/frog-preview.png"
+        }
+    },
+    "antenna": {
+        "alpha": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/alpha-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/alpha-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/alpha-preview.png"
+        },
+        "eataf": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/eataf-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/eataf-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/eataf-preview.png"
+        },
+        "gamma": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/gamma-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/gamma-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/gamma-preview.png"
+        },
+        "beta": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/beta-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/beta-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/beta-preview.png"
+        },
+        "theta": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/theta-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/theta-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/theta-preview.png"
+        },
+        "eta": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/eta-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/eta-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/eta-preview.png"
+        },
+        "miden": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/miden-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/miden-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/miden-preview.png"
+        },
+        "epsilon": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/epsilon-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/epsilon-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/epsilon-preview.png"
+        },
+        "zeta": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/zeta-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/zeta-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/zeta-preview.png"
+        },
+        "delta": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/delta-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/delta-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/delta-preview.png"
+        },
+        "iota": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/iota-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/iota-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/iota-preview.png"
+        },
+        "mu": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/mu-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/mu-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/mu-preview.png"
+        },
+        "nu": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/nu-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/nu-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/nu-preview.png"
+        },
+        "lambda": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/lambda-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/lambda-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/lambda-preview.png"
+        },
+        "omicron": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/omicron-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/omicron-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/omicron-preview.png"
+        },
+        "phi": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/phi-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/phi-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/phi-preview.png"
+        },
+        "kappa": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/kappa-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/kappa-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/kappa-preview.png"
+        },
+        "psi": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/psi-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/psi-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/psi-preview.png"
+        },
+        "rho": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/rho-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/rho-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/rho-preview.png"
+        },
+        "omega": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/omega-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/omega-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/omega-preview.png"
+        },
+        "sigma": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/sigma-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/sigma-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/sigma-preview.png"
+        },
+        "chi": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/antenna/chi-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/antenna/chi-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/antenna/chi-preview.png"
+        }
+    },
+    "tongue": {
+        "round": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tongue/round-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tongue/round-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tongue/round-preview.png"
+        },
+        "goo": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tongue/goo-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tongue/goo-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tongue/goo-preview.png"
+        },
+        "split": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tongue/split-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tongue/split-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tongue/split-preview.png"
+        },
+        "forked": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tongue/forked-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tongue/forked-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tongue/forked-preview.png"
+        },
+        "pointed": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tongue/pointed-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tongue/pointed-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tongue/pointed-preview.png"
+        }
+    },
+    "tail": {
+        "none": {
+            "lines": "none",
+            "base": "none",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tail/none-preview.png"
+        },
+        "lion pompom": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tail/lion-pompom-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tail/lion-pompom-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tail/lion-pompom-preview.png"
+        },
+        "lion curled": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tail/lion-curled-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tail/lion-curled-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tail/lion-curled-preview.png"
+        },
+        "lion": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tail/lion-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tail/lion-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tail/lion-preview.png"
+        },
+        "devil": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tail/devil-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tail/devil-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tail/devil-preview.png"
+        },
+        "dog": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tail/dog-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tail/dog-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tail/dog-preview.png"
+        },
+        "cat": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tail/cat-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tail/cat-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tail/cat-preview.png"
+        },
+        "puff": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tail/puff-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tail/puff-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tail/puff-preview.png"
+        }
+    },
+    "wings": {
+        "none": {
+            "lines": "none",
+            "base": "none",
+            "preview": "/assets/dollmakers/jawbreaker-bat/wings/none-preview.png"
+        },
+        "pixie": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/wings/pixie-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/wings/pixie-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/wings/pixie-preview.png"
+        },
+        "butterfly large": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/wings/butterfly-large-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/wings/butterfly-large-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/wings/butterfly-large-preview.png"
+        },
+        "butterfly": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/wings/butterfly-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/wings/butterfly-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/wings/butterfly-preview.png"
+        },
+        "goo large": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/wings/goo-large-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/wings/goo-large-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/wings/goo-large-preview.png"
+        },
+        "goo": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/wings/goo-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/wings/goo-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/wings/goo-preview.png"
+        },
+        "feather kawaii": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/wings/feather-kawaii-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/wings/feather-kawaii-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/wings/feather-kawaii-preview.png"
+        },
+        "feather large": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/wings/feather-large-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/wings/feather-large-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/wings/feather-large-preview.png"
+        },
+        "feather multi": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/wings/feather-multi-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/wings/feather-multi-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/wings/feather-multi-preview.png"
+        },
+        "feather": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/wings/feather-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/wings/feather-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/wings/feather-preview.png"
+        },
+        "bat multi": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/wings/bat-multi-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/wings/bat-multi-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/wings/bat-multi-preview.png"
+        },
+        "bat large": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/wings/bat-large-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/wings/bat-large-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/wings/bat-large-preview.png"
+        },
+        "bat": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/wings/bat-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/wings/bat-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/wings/bat-preview.png"
+        }
+    },
+    "horn": {
+        "none": {
+            "front_lines": "none",
+            "front_base": "none",
+            "back_lines": "none",
+            "back_base": "none",
+            "preview": "/assets/dollmakers/jawbreaker-bat/horn/none-preview.png"
+        },
+        "arch": {
+            "front_lines": "none",
+            "front_base": "none",
+            "back_lines": "/assets/dollmakers/jawbreaker-bat/horn/arch-lines.png",
+            "back_base": "/assets/dollmakers/jawbreaker-bat/horn/arch-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/horn/arch-preview.png"
+        },
+        "crown": {
+            "front_lines": "/assets/dollmakers/jawbreaker-bat/horn/crown-lines.png",
+            "front_base": "/assets/dollmakers/jawbreaker-bat/horn/crown-base.png",
+            "back_lines": "none",
+            "back_base": "none",
+            "preview": "/assets/dollmakers/jawbreaker-bat/horn/crown-preview.png"
+        },
+        "antler": {
+            "front_lines": "/assets/dollmakers/jawbreaker-bat/horn/antler-lines.png",
+            "front_base": "/assets/dollmakers/jawbreaker-bat/horn/antler-base.png",
+            "back_lines": "none",
+            "back_base": "none",
+            "preview": "/assets/dollmakers/jawbreaker-bat/horn/antler-preview.png"
+        },
+        "ram": {
+            "front_lines": "/assets/dollmakers/jawbreaker-bat/horn/ram-lines-front.png",
+            "front_base": "/assets/dollmakers/jawbreaker-bat/horn/ram-base-front.png",
+            "back_lines": "/assets/dollmakers/jawbreaker-bat/horn/ram-lines-back.png",
+            "back_base": "/assets/dollmakers/jawbreaker-bat/horn/ram-base-back.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/horn/ram-preview.png"
+        },
+        "dragon": {
+            "front_lines": "/assets/dollmakers/jawbreaker-bat/horn/dragon-lines.png",
+            "front_base": "/assets/dollmakers/jawbreaker-bat/horn/dragon-base.png",
+            "back_lines": "none",
+            "back_base": "none",
+            "preview": "/assets/dollmakers/jawbreaker-bat/horn/dragon-preview.png"
+        },
+        "devil": {
+            "front_lines": "/assets/dollmakers/jawbreaker-bat/horn/devil-lines.png",
+            "front_base": "/assets/dollmakers/jawbreaker-bat/horn/devil-base.png",
+            "back_lines": "none",
+            "back_base": "none",
+            "preview": "/assets/dollmakers/jawbreaker-bat/horn/devil-preview.png"
+        },
+        "uni long": {
+            "front_lines": "/assets/dollmakers/jawbreaker-bat/horn/uni-long-lines.png",
+            "front_base": "/assets/dollmakers/jawbreaker-bat/horn/uni-long-base.png",
+            "back_lines": "none",
+            "back_base": "none",
+            "preview": "/assets/dollmakers/jawbreaker-bat/horn/uni-long-preview.png"
+        },
+        "uni": {
+            "front_lines": "/assets/dollmakers/jawbreaker-bat/horn/uni-lines.png",
+            "front_base": "/assets/dollmakers/jawbreaker-bat/horn/uni-base.png",
+            "back_lines": "none",
+            "back_base": "none",
+            "preview": "/assets/dollmakers/jawbreaker-bat/horn/uni-preview.png"
+        }
+    },
+    "ears": {
+        "none": {
+            "front_lines": "none",
+            "front_base": "none",
+            "back_lines": "none",
+            "back_base": "none",
+            "preview": "/assets/dollmakers/jawbreaker-bat/ears/none-preview.png"
+        },
+        "bunny": {
+            "front_lines": "/assets/dollmakers/jawbreaker-bat/ears/bunny-lines-front.png",
+            "front_base": "/assets/dollmakers/jawbreaker-bat/ears/bunny-base-front.png",
+            "back_lines": "/assets/dollmakers/jawbreaker-bat/ears/bunny-lines-back.png",
+            "back_base": "/assets/dollmakers/jawbreaker-bat/ears/bunny-base-back.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/ears/bunny-preview.png"
+        },
+        "bear": {
+            "front_lines": "/assets/dollmakers/jawbreaker-bat/ears/bear-lines-front.png",
+            "front_base": "/assets/dollmakers/jawbreaker-bat/ears/bear-base-front.png",
+            "back_lines": "/assets/dollmakers/jawbreaker-bat/ears/bear-lines-back.png",
+            "back_base": "/assets/dollmakers/jawbreaker-bat/ears/bear-base-back.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/ears/bear-preview.png"
+        },
+        "dog": {
+            "front_lines": "/assets/dollmakers/jawbreaker-bat/ears/dog-lines-front.png",
+            "front_base": "/assets/dollmakers/jawbreaker-bat/ears/dog-base-front.png",
+            "back_lines": "/assets/dollmakers/jawbreaker-bat/ears/dog-lines-back.png",
+            "back_base": "/assets/dollmakers/jawbreaker-bat/ears/dog-base-back.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/ears/dog-preview.png"
+        },
+        "cat": {
+            "front_lines": "/assets/dollmakers/jawbreaker-bat/ears/cat-lines-front.png",
+            "front_base": "/assets/dollmakers/jawbreaker-bat/ears/cat-base-front.png",
+            "back_lines": "/assets/dollmakers/jawbreaker-bat/ears/cat-lines-back.png",
+            "back_base": "/assets/dollmakers/jawbreaker-bat/ears/cat-base-back.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/ears/cat-preview.png"
+        }
+    },
+    "background": {
+        "none": {
+            "lines": "none",
+            "base": "none",
+            "preview": "/assets/dollmakers/jawbreaker-bat/background/none-preview.png"
+        },
+        "striped": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/background/striped-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/background/base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/background/striped-preview.png"
+        },
+        "checkers": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/background/checkers-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/background/base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/background/checkers-preview.png"
+        }
+    }
+}

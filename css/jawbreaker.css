@@ -1,0 +1,25 @@
+.antenna {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.teeth {
+    display: none;
+}
+
+.body {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+#body-canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
+
+#fore-canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 6;
+}

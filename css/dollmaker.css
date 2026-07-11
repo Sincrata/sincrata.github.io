@@ -1,0 +1,177 @@
+*{
+    color: white;
+}
+main{
+    width: 80%;
+    background-color: #403175;
+    border-radius: 8px;
+    margin: auto;
+    padding: 15px;
+}
+body{
+    background-color: #2d215d;
+    padding: 15px;
+}
+#main-logo{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+#dollmaker{
+    background-color: #584894;
+    width: 80%;
+    margin: auto;
+}
+#preview{
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+#preview canvas{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+#selection-bar{
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    scrollbar-width: thin;
+    scrollbar-color: #403175 transparent;
+}
+
+.category{
+    background-color: #403175;
+    text-align: center;
+}
+.category:hover{
+    background-color: #ae97da;
+}
+#features, .features{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    align-items: stretch;
+    margin: 10px;
+    padding: 15px;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    max-width: 100%;
+    flex: 1;
+    padding: 15px;
+    border-radius: 8px;
+}
+.feature img{
+    width: 100%;
+    max-width: 200px;
+}
+.feature:hover{
+    box-shadow: inset 0 0 0 2px #d2c2fe;
+}
+.category{
+    width: 20%;
+    min-width: 100px;
+    min-height: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.selected{
+    background-color: #ae97da;
+}
+#colors{
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    scrollbar-width: thin;
+    scrollbar-color: #403175 transparent;
+}
+.color{
+    max-width: 100px;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.color:hover, .custom:hover{
+    box-shadow: inset 0 0 0 2px #d2c2fe;
+}
+.custom{
+    margin: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: conic-gradient(
+        rgb(255, 225, 53),
+        rgb(231, 255, 166),
+        rgb(127, 212, 127),
+        rgb(127, 212, 202),
+        rgb(41, 126, 255),
+        rgb(41, 45, 255),
+        rgb(126, 35, 238),
+        rgb(255, 128, 255),
+        rgb(244, 29, 101),
+        rgb(212, 6, 6),
+        rgb(251, 144, 13),
+        rgb(255, 225, 53)
+  );
+}
+.custom input{
+    width: 0;
+    height: 0;
+    border: none;
+    background: none;
+}
+#save{
+    position: absolute;
+    bottom: 2px;
+    right: 110px; 
+    z-index: 15;
+}
+#random{
+    position: absolute;
+    bottom: 2px;
+    right: 55px;
+    z-index: 15;
+}
+#clear{
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    z-index: 15;
+}
+#save img, #random img, #clear img{
+    max-width: 50px;
+}
+#save img:hover, #random img:hover, #clear img:hover{
+    max-width: 52px;
+    bottom: 0px;
+}
+
+.pop-up{
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    background-color: #403175;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 200px;
+    z-index: 20;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.pop-up button{
+    margin: auto;
+}

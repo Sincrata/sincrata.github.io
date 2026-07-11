@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jawbreaker Bat Dollmaker</title>
+    <link rel="stylesheet" href="css/dollmaker.css">
+    <link rel="stylesheet" href="css/jawbreaker.css">
+    <script type="module" src="scripts/jawbreaker-controller.js" defer></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <img src="assets/jawbreaker-logo.png" id="main-logo" alt="Jawbreaker Bats" />
+        <div id="dollmaker">
+            <div id="preview" aria-label="Preview" tabindex="0">
+                <div id="buttons">
+                    <a id="save"><img aria-label="save" tabindex="0"
+                            src="https://static.thenounproject.com/png/2853302-200.png" alt="save"></a>
+                    <a id="random"><img aria-label="random" tabindex="0"
+                            src="https://icons.veryicon.com/png/o/object/material_design_icons/dice-7.png"
+                            alt="randomize"></a>
+                    <a id="clear"><img aria-label="clear" tabindex="0"
+                            src="https://cdn-icons-png.flaticon.com/512/2618/2618245.png" alt="clear"></a>
+                </div>
+                <canvas id="fore-canvas" class="preview-canvas"></canvas>
+                <canvas id="body-canvas" class="preview-canvas"></canvas>
+                <canvas id="back-canvas" class="preview-canvas"></canvas>
+            </div>
+            <div id="selection-bar">
+                <div data-type="body" class="category selected" aria-label="Body Types" role="button" tabindex="0">Body
+                </div>
+                <div data-type="markings" class="category" aria-label="Markings" role="button" tabindex="0">Markings
+                </div>
+                <div data-type="antenna" class="category" aria-label="Antenna Shapes" role="button" tabindex="0">Antenna
+                </div>
+                <div data-type="teeth" class="category" aria-label="Teeth Color" role="button" tabindex="0">Teeth</div>
+                <div data-type="tongue" class="category" aria-label="Tongue Types" role="button" tabindex="0">Tongue
+                </div>
+                <div data-type="tail" class="category" aria-label="Tail Types" role="button" tabindex="0">Tail</div>
+                <div data-type="wings" class="category" aria-label="Wing Types" role="button" tabindex="0">Wings</div>
+                <div data-type="horn" class="category" aria-label="Horn Types" role="button" tabindex="0">Horn</div>
+                <div data-type="ears" class="category" aria-label="Ear Types" role="button" tabindex="0">Ears</div>
+                <div data-type="background" class="category" aria-label="Backgrounds" role="button" tabindex="0">
+                    Background</div>
+            </div>
+            <div id="colors">
+                <div class="custom" aria-label="Color Wheel" role="button" tabindex="0"><input type="color"
+                        tabindex="-1"></div>
+                <div class="color" aria-label="Red (#bd3d0b)" data-hex="#bd3d0b" style="background-color:#bd3d0b"
+                    role="button" tabindex="0"></div>
+                <div class="color" data-hex="#700100" aria-label="Dark Red (#700100)" style="background-color:#700100"
+                    role="button" tabindex="0"></div>
+                <div class="color" data-hex="#ffae8f" style="background-color:#ffae8f" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#824900" style="background-color:#824900" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#eaa527" style="background-color:#eaa527" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#eace9c" style="background-color:#eace9c" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#9e9500" style="background-color:#9e9500" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#eae027" style="background-color:#eae027" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#fffa9c" style="background-color:#fffa9c" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#294f00" style="background-color:#294f00" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#acdb2b" style="background-color:#acdb2b" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#e6ffa1" style="background-color:#e6ffa1" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#127800" style="background-color:#127800" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#58ca36" style="background-color:#58ca36" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#c4ffb2" style="background-color:#c4ffb2" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#005778" style="background-color:#005778" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#36a5ca" style="background-color:#36a5ca" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#b5edff" style="background-color:#b5edff" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#000066" style="background-color:#000066" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#3643ca" style="background-color:#3643ca" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#b0b7ff" style="background-color:#b0b7ff" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#440a94" style="background-color:#440a94" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#7436ca" style="background-color:#7436ca" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#d6b8ff" style="background-color:#d6b8ff" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#ce26db" style="background-color:#ce26db" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#d58bdb" style="background-color:#d58bdb" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#fcd1ff" style="background-color:#fcd1ff" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#ffffff" style="background-color:#ffffff" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#929292" style="background-color:#929292" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#666666" style="background-color:#666666" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#262626" style="background-color:#262626" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#693a13" style="background-color:#693a13" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#a9865e" style="background-color:#a9865e" role="button" tabindex="0"></div>
+                <div class="color" data-hex="#e0d0bd" style="background-color:#e0d0bd" role="button" tabindex="0"></div>
+            </div>
+            <div id="body">
+            </div>
+            <div id="teeth" style="display: none;">
+            </div>
+            <div id="markings" style="display: none;">
+            </div>
+            <div id="antenna" style="display: none;">
+            </div>
+            <div id="tongue" style="display: none;">
+            </div>
+            <div id="tail" style="display: none;">
+            </div>
+            <div id="wings" style="display: none;">
+            </div>
+            <div id="horn" style="display: none;">
+            </div>
+            <div id="ears" style="display: none;">
+            </div>
+            <div id="background" style="display: none;">
+            </div>
+        </div>
+
+        <div id="overlay"></div>
+
+        <div class="pop-up" id="save-confirm" style="display: none;">
+            <button id="save-lines">Save Lines</button>
+            <button id="save-picture">Save Picture</button>
+            <button id="save-back">Back</button>
+        </div>
+
+        <div class="pop-up" id="randomize-confirm" style="display: none;">
+            <button id="randomize-all">Randomize All</button>
+            <button id="randomize-category">Randomize Category</button>
+            <button id="randomize-traits">Randomize Traits</button>
+            <button id="randomize-colors">Randomize Colors</button>
+            <button id="randomize-back">Back</button>
+        </div>
+        <div class="pop-up" id="clear-confirm" style="display: none;">
+            <button id="clear-all">Clear All</button>
+            <button id="clear-back">Back</button>
+        </div>
+
+    </main>
+
+
+</body>
+
+</html>
