@@ -26,7 +26,7 @@ export function updateCanvas(type, current, masterlist, body, fore, back) {
     }
 }
 
-async function updateBodyCanvas(current, masterlist, body) {
+function updateBodyCanvas(current, masterlist, body) {
     const newCanvas = document.createElement("canvas");
     newCanvas.width = 860;
     newCanvas.height = 635;
@@ -79,7 +79,7 @@ async function updateBodyCanvas(current, masterlist, body) {
     old_ctx.drawImage(newCanvas, 0, 0);
 }
 
-async function updateBackgroundCanvas(current, masterlist, back) {
+function updateBackgroundCanvas(current, masterlist, back) {
     const newCanvas = document.createElement("canvas");
     newCanvas.width = 860;
     newCanvas.height = 635;
@@ -131,7 +131,7 @@ async function updateBackgroundCanvas(current, masterlist, back) {
     old_ctx.drawImage(newCanvas, 0, 0);
 }
 
-async function updateForegroundCanvas(current, masterlist, fore) {
+function updateForegroundCanvas(current, masterlist, fore) {
     const newCanvas = document.createElement("canvas");
     newCanvas.width = 860;
     newCanvas.height = 635;
@@ -205,17 +205,7 @@ function hexToRGB(hex) {
     return [r, g, b];
 }
 
-export function save(type, body, fore, back) {
-    switch (type) {
-        case "lines":
-            save_lines(body, fore, back);
-            break;
-        default:
-            save_pic(body, fore, back);
-    }
-}
-
-function save_pic(body, fore, back) {
+export function save_pic(body, fore, back) {
     const imageCanvas = document.createElement("canvas");
     imageCanvas.width = 860;
     imageCanvas.height = 635;
@@ -230,6 +220,51 @@ function save_pic(body, fore, back) {
     download_btn.click();
 }
 
-function save_lines(body, fore, back) {
+export function save_lines(current, masterlist) {
+    const imageCanvas = document.createElement("canvas");
+    imageCanvas.width = 860;
+    imageCanvas.height = 635;
+    const ctx = imageCanvas.getContext("2d");
 
+    //prepare canvases with white
+    const bodyCanvas = document.createElement("canvas");
+    bodyCanvas.width = 860;
+    bodyCanvas.height = 635;
+    const backCanvas = document.createElement("canvas");
+    backCanvas.width = 860;
+    backCanvas.height = 635;
+    const foreCanvas = document.createElement("canvas");
+    foreCanvas.width = 860;
+    foreCanvas.height = 635;
+    const current_white = structuredClone(current);
+    for (const [feature, data] of Object.entries(current_white)) {
+        data["color"] = "#ffffff";
+    }
+
+    //draw canvases on
+    updateCanvas("all", current_white, masterlist, bodyCanvas, foreCanvas, backCanvas);
+    ctx.drawImage(backCanvas, 0, 0);
+    ctx.drawImage(bodyCanvas, 0, 0);
+    ctx.drawImage(foreCanvas, 0, 0);
+
+    //luminance to transparency
+    const imageData = ctx.getImageData(0, 0, imageCanvas.width, imageCanvas.height);
+    const data = imageData.data;
+    for (let i = 0; i < data.length; i += 4) {
+        if (data[i + 3] <= 12) {
+            data[i + 3] = 0;
+            continue;
+        }
+        const alpha = 255 - (0.2126 * data[i + 0] + 0.7152 * data[i + 1] + 0.0722 * data[i + 2]);
+        data[i + 3] = data[i + 3] * (alpha/255);
+        data[i] = 0;
+        data[i + 1] = 0;
+        data[i + 2] = 0;
+    }
+    ctx.putImageData(imageData, 0, 0);
+
+    const download_btn = document.createElement("a");
+    download_btn.download = "jawbreaker_bat_lines.png";
+    download_btn.href = imageCanvas.toDataURL("image/png");
+    download_btn.click();
 }
