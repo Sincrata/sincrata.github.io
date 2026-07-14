@@ -42,6 +42,16 @@
             "base-straight": "/assets/dollmakers/jawbreaker-bat/markings/frog-straight-base.png",
             "base-curled": "/assets/dollmakers/jawbreaker-bat/markings/frog-curled-base.png",
             "preview": "/assets/dollmakers/jawbreaker-bat/markings/frog-preview.png"
+        },
+        "paws": {
+            "base-straight": "/assets/dollmakers/jawbreaker-bat/markings/paws-straight-base.png",
+            "base-curled": "/assets/dollmakers/jawbreaker-bat/markings/paws-curled-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/markings/paws-preview.png"
+        },
+        "leopard": {
+            "base-straight": "/assets/dollmakers/jawbreaker-bat/markings/leopard-straight-base.png",
+            "base-curled": "/assets/dollmakers/jawbreaker-bat/markings/leopard-curled-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/markings/leopard-preview.png"
         }
     },
     "antenna": {
@@ -181,6 +191,26 @@
             "lines": "/assets/dollmakers/jawbreaker-bat/tongue/pointed-lines.png",
             "base": "/assets/dollmakers/jawbreaker-bat/tongue/pointed-base.png",
             "preview": "/assets/dollmakers/jawbreaker-bat/tongue/pointed-preview.png"
+        },
+        "tech": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tongue/tech-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tongue/tech-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tongue/tech-preview.png"
+        },
+        "cookie": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tongue/cookie-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tongue/cookie-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tongue/cookie-preview.png"
+        },
+        "leaf": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tongue/leaf-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tongue/leaf-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tongue/leaf-preview.png"
+        },
+        "smoke": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tongue/smoke-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tongue/smoke-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tongue/smoke-preview.png"
         }
     },
     "tail": {
@@ -223,6 +253,41 @@
             "lines": "/assets/dollmakers/jawbreaker-bat/tail/puff-lines.png",
             "base": "/assets/dollmakers/jawbreaker-bat/tail/puff-base.png",
             "preview": "/assets/dollmakers/jawbreaker-bat/tail/puff-preview.png"
+        },
+        "donut": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tail/donut-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tail/donut-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tail/donut-preview.png"
+        },
+        "flower": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tail/flower-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tail/flower-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tail/flower-preview.png"
+        },
+        "wind up": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tail/wind-up-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tail/wind-up-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tail/wind-up-preview.png"
+        },
+        "smoke": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tail/smoke-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tail/smoke-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tail/smoke-preview.png"
+        },
+        "goo": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tail/goo-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tail/goo-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tail/goo-preview.png"
+        },
+        "dino": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tail/dino-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tail/dino-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tail/dino-preview.png"
+        },
+        "leaf": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tail/leaf-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tail/leaf-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tail/leaf-preview.png"
         }
     },
     "wings": {
@@ -290,6 +355,31 @@
             "lines": "/assets/dollmakers/jawbreaker-bat/wings/bat-lines.png",
             "base": "/assets/dollmakers/jawbreaker-bat/wings/bat-base.png",
             "preview": "/assets/dollmakers/jawbreaker-bat/wings/bat-preview.png"
+        },
+        "leaf": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/wings/leaf-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/wings/leaf-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/wings/leaf-preview.png"
+        },
+        "cookie": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/wings/cookie-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/wings/cookie-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/wings/cookie-preview.png"
+        },
+        "cloud": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/wings/cloud-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/wings/cloud-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/wings/cloud-preview.png"
+        },
+        "smoke": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/wings/smoke-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/wings/smoke-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/wings/smoke-preview.png"
+        },
+        "tech": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/wings/tech-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/wings/tech-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/wings/tech-preview.png"
         }
     },
     "horn": {
@@ -392,7 +482,35 @@
             "back_lines": "/assets/dollmakers/jawbreaker-bat/ears/cat-lines-back.png",
             "back_base": "/assets/dollmakers/jawbreaker-bat/ears/cat-base-back.png",
             "preview": "/assets/dollmakers/jawbreaker-bat/ears/cat-preview.png"
-        }
+        },
+        "tech": {
+            "front_lines": "/assets/dollmakers/jawbreaker-bat/ears/tech-lines-front.png",
+            "front_base": "/assets/dollmakers/jawbreaker-bat/ears/tech-base-front.png",
+            "back_lines": "/assets/dollmakers/jawbreaker-bat/ears/tech-lines-back.png",
+            "back_base": "/assets/dollmakers/jawbreaker-bat/ears/tech-base-back.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/ears/tech-preview.png"
+        },
+        "goo": {
+            "front_lines": "/assets/dollmakers/jawbreaker-bat/ears/goo-lines-front.png",
+            "front_base": "/assets/dollmakers/jawbreaker-bat/ears/goo-base-front.png",
+            "back_lines": "/assets/dollmakers/jawbreaker-bat/ears/goo-lines-back.png",
+            "back_base": "/assets/dollmakers/jawbreaker-bat/ears/goo-base-back.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/ears/goo-preview.png"
+        },
+        "donut": {
+            "front_lines": "/assets/dollmakers/jawbreaker-bat/ears/donut-lines-front.png",
+            "front_base": "/assets/dollmakers/jawbreaker-bat/ears/donut-base-front.png",
+            "back_lines": "/assets/dollmakers/jawbreaker-bat/ears/donut-lines-back.png",
+            "back_base": "/assets/dollmakers/jawbreaker-bat/ears/donut-base-back.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/ears/donut-preview.png"
+        },
+        "leaf": {
+            "front_lines": "/assets/dollmakers/jawbreaker-bat/ears/leaf-lines-front.png",
+            "front_base": "/assets/dollmakers/jawbreaker-bat/ears/leaf-base-front.png",
+            "back_lines": "none",
+            "back_base": "none",
+            "preview": "/assets/dollmakers/jawbreaker-bat/ears/leaf-preview.png"
+        }  
     },
     "background": {
         "none": {

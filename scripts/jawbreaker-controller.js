@@ -65,6 +65,9 @@ const back_canvas = document.getElementById("back-canvas");
 back_canvas.width = 860;
 back_canvas.height = 635;
 const back_ctx = back_canvas.getContext("2d");
+const placeholder_canvas = document.getElementById("placeholder-canvas");
+placeholder_canvas.width = 860;
+placeholder_canvas.height = 635;
 
 
 //initialize method
@@ -150,7 +153,7 @@ function populateCategories() {
             img.setAttribute("alt", feature);
 
             feature_div.appendChild(img);
-            feature_div.appendChild(document.createTextNode(feature));
+            feature_div.appendChild(document.createTextNode(feature.charAt(0).toUpperCase() + feature.slice(1)));
 
             //add on-click event watcher for feature_div
             feature_div.addEventListener('click', () => {

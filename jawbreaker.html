@@ -29,9 +29,12 @@
                     <a id="clear"><img aria-label="clear" tabindex="0"
                             src="https://cdn-icons-png.flaticon.com/512/2618/2618245.png" alt="clear"></a>
                 </div>
-                <canvas id="fore-canvas" class="preview-canvas"></canvas>
-                <canvas id="body-canvas" class="preview-canvas"></canvas>
-                <canvas id="back-canvas" class="preview-canvas"></canvas>
+                <div id="canvases">
+                    <canvas id="fore-canvas" class="preview-canvas"></canvas>
+                    <canvas id="body-canvas" class="preview-canvas"></canvas>
+                    <canvas id="back-canvas" class="preview-canvas"></canvas>
+                    <canvas id="placeholder-canvas"></canvas>
+                </div>
             </div>
             <div id="selection-bar">
                 <div data-type="body" class="category selected" aria-label="Body Types" role="button" tabindex="0">Body
@@ -53,6 +56,9 @@
             <div id="colors">
                 <div class="custom" aria-label="Color Wheel" role="button" tabindex="0"><input type="color"
                         tabindex="-1"></div>
+                <div class="color" data-hex="#ffffff" style="background-color:#ffffff"></div>
+                <div class="color" data-hex="#929292" style="background-color:#929292"></div>
+                <div class="color" data-hex="#262626" style="background-color:#262626"></div>
                 <div class="color" data-hex="#bd3d0b" style="background-color:#bd3d0b"></div>
                 <div class="color" data-hex="#700100" style="background-color:#700100"></div>
                 <div class="color" data-hex="#ffae8f" style="background-color:#ffae8f"></div>
@@ -80,10 +86,6 @@
                 <div class="color" data-hex="#ce26db" style="background-color:#ce26db"></div>
                 <div class="color" data-hex="#d58bdb" style="background-color:#d58bdb"></div>
                 <div class="color" data-hex="#fcd1ff" style="background-color:#fcd1ff"></div>
-                <div class="color" data-hex="#ffffff" style="background-color:#ffffff"></div>
-                <div class="color" data-hex="#929292" style="background-color:#929292"></div>
-                <div class="color" data-hex="#666666" style="background-color:#666666"></div>
-                <div class="color" data-hex="#262626" style="background-color:#262626"></div>
                 <div class="color" data-hex="#693a13" style="background-color:#693a13"></div>
                 <div class="color" data-hex="#a9865e" style="background-color:#a9865e"></div>
                 <div class="color" data-hex="#e0d0bd" style="background-color:#e0d0bd"></div>

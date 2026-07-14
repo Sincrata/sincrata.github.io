@@ -1,25 +1,23 @@
-.antenna {
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+.antenna .feature{
+    min-width: 100px;
 }
 
 .teeth {
     display: none;
 }
 
-.body {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+.body .feature{
+    min-width: 200px;
 }
 
 #body-canvas {
-    position: absolute;
-    top: 0px;
-    left: 0px;
     z-index: 3;
 }
 
 #fore-canvas {
-    position: absolute;
-    top: 0px;
-    left: 0px;
     z-index: 6;
+}
+
+#back-canvas{
+    z-index: 1;
 }
