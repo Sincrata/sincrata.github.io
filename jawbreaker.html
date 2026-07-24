@@ -21,13 +21,9 @@
         <div id="dollmaker">
             <div id="preview" aria-label="Preview" tabindex="0">
                 <div id="buttons">
-                    <a id="save"><img aria-label="save" tabindex="0"
-                            src="https://static.thenounproject.com/png/2853302-200.png" alt="save"></a>
-                    <a id="random"><img aria-label="random" tabindex="0"
-                            src="https://icons.veryicon.com/png/o/object/material_design_icons/dice-7.png"
-                            alt="randomize"></a>
-                    <a id="clear"><img aria-label="clear" tabindex="0"
-                            src="https://cdn-icons-png.flaticon.com/512/2618/2618245.png" alt="clear"></a>
+                    <a id="save"><img aria-label="save" tabindex="0" src="/assets/save.png" alt="save"></a>
+                    <a id="random"><img aria-label="random" tabindex="0" src="/assets/random.png" alt="randomize"></a>
+                    <a id="clear"><img aria-label="clear" tabindex="0" src="/assets/clear.png" alt="clear"></a>
                 </div>
                 <div id="canvases">
                     <canvas id="fore-canvas" class="preview-canvas"></canvas>
@@ -90,25 +86,27 @@
                 <div class="color" data-hex="#a9865e" style="background-color:#a9865e"></div>
                 <div class="color" data-hex="#e0d0bd" style="background-color:#e0d0bd"></div>
             </div>
-            <div id="body">
-            </div>
-            <div id="teeth" style="display: none;">
-            </div>
-            <div id="markings" style="display: none;">
-            </div>
-            <div id="antenna" style="display: none;">
-            </div>
-            <div id="tongue" style="display: none;">
-            </div>
-            <div id="tail" style="display: none;">
-            </div>
-            <div id="wings" style="display: none;">
-            </div>
-            <div id="horn" style="display: none;">
-            </div>
-            <div id="ears" style="display: none;">
-            </div>
-            <div id="background" style="display: none;">
+            <div id="tabs">
+                <div id="body" class="tab">
+                </div>
+                <div id="teeth" class="tab transparent">
+                </div>
+                <div id="markings" class="tab transparent">
+                </div>
+                <div id="antenna" class="tab transparent">
+                </div>
+                <div id="tongue" class="tab transparent">
+                </div>
+                <div id="tail" class="tab transparent">
+                </div>
+                <div id="wings" class="tab transparent">
+                </div>
+                <div id="horn" class="tab transparent">
+                </div>
+                <div id="ears" class="tab transparent">
+                </div>
+                <div id="background" class="tab transparent">
+                </div>
             </div>
         </div>
 
@@ -116,7 +114,7 @@
         <div class="pop-up invisible" id="save-confirm">
             <div class="back-bar"><button id="save-back" class="back-btn">Back</button></div>
             <button id="save-lines" class="popup-btn">Save Lines</button>
-            <button id="save-picture" class="popup-btn">Save Picture</button>
+            <button id="save-picture" class="popup-btn">Save PNG</button>
         </div>
 
         <div class="pop-up invisible" id="randomize-confirm">
@@ -128,7 +126,7 @@
         </div>
         <div class="pop-up invisible" id="clear-confirm">
             <div class="back-bar"><button id="clear-back" class="back-btn">Back</button></div>
-            <button id="clear-all" class="popup-btn">Reset</button>
+            <button id="clear-all" class="popup-btn">Reset All</button>
         </div>
 
     </main>

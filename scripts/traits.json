@@ -52,6 +52,51 @@
             "base-straight": "/assets/dollmakers/jawbreaker-bat/markings/leopard-straight-base.png",
             "base-curled": "/assets/dollmakers/jawbreaker-bat/markings/leopard-curled-base.png",
             "preview": "/assets/dollmakers/jawbreaker-bat/markings/leopard-preview.png"
+        },
+        "moon": {
+            "base-straight": "/assets/dollmakers/jawbreaker-bat/markings/moon-base.png",
+            "base-curled": "/assets/dollmakers/jawbreaker-bat/markings/moon-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/markings/moon-preview.png"
+        },
+        "checkers": {
+            "base-straight": "/assets/dollmakers/jawbreaker-bat/markings/checkers-straight-base.png",
+            "base-curled": "/assets/dollmakers/jawbreaker-bat/markings/checkers-curled-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/markings/checkers-preview.png"
+        },
+        "goo": {
+            "base-straight": "/assets/dollmakers/jawbreaker-bat/markings/goo-straight-base.png",
+            "base-curled": "/assets/dollmakers/jawbreaker-bat/markings/goo-curled-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/markings/goo-preview.png"
+        },
+        "paw print": {
+            "base-straight": "/assets/dollmakers/jawbreaker-bat/markings/paw-print-straight-base.png",
+            "base-curled": "/assets/dollmakers/jawbreaker-bat/markings/paw-print-curled-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/markings/paw-print-preview.png"
+        },
+        "stars": {
+            "base-straight": "/assets/dollmakers/jawbreaker-bat/markings/stars-straight-base.png",
+            "base-curled": "/assets/dollmakers/jawbreaker-bat/markings/stars-curled-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/markings/stars-preview.png"
+        },
+        "spots": {
+            "base-straight": "/assets/dollmakers/jawbreaker-bat/markings/spots-straight-base.png",
+            "base-curled": "/assets/dollmakers/jawbreaker-bat/markings/spots-curled-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/markings/spots-preview.png"
+        },
+        "sparkles": {
+            "base-straight": "/assets/dollmakers/jawbreaker-bat/markings/sparkles-straight-base.png",
+            "base-curled": "/assets/dollmakers/jawbreaker-bat/markings/sparkles-curled-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/markings/sparkles-preview.png"
+        },
+        "blush": {
+            "base-straight": "/assets/dollmakers/jawbreaker-bat/markings/blush-straight-base.png",
+            "base-curled": "/assets/dollmakers/jawbreaker-bat/markings/blush-curled-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/markings/blush-preview.png"
+        },
+        "heart": {
+            "base-straight": "/assets/dollmakers/jawbreaker-bat/markings/heart-base.png",
+            "base-curled": "/assets/dollmakers/jawbreaker-bat/markings/heart-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/markings/heart-preview.png"
         }
     },
     "antenna": {
@@ -191,6 +236,11 @@
             "lines": "/assets/dollmakers/jawbreaker-bat/tongue/pointed-lines.png",
             "base": "/assets/dollmakers/jawbreaker-bat/tongue/pointed-base.png",
             "preview": "/assets/dollmakers/jawbreaker-bat/tongue/pointed-preview.png"
+        },
+        "square": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/tongue/square-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/tongue/square-base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/tongue/square-preview.png"
         },
         "tech": {
             "lines": "/assets/dollmakers/jawbreaker-bat/tongue/tech-lines.png",
@@ -517,6 +567,11 @@
             "lines": "none",
             "base": "none",
             "preview": "/assets/dollmakers/jawbreaker-bat/background/none-preview.png"
+        },
+        "blank": {
+            "lines": "/assets/dollmakers/jawbreaker-bat/background/blank-lines.png",
+            "base": "/assets/dollmakers/jawbreaker-bat/background/base.png",
+            "preview": "/assets/dollmakers/jawbreaker-bat/background/blank-preview.png"
         },
         "striped": {
             "lines": "/assets/dollmakers/jawbreaker-bat/background/striped-lines.png",

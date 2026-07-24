@@ -328,8 +328,8 @@ function categorySelection(trigger) {
         category_select.classList.remove("selected");
     }
     trigger.classList.toggle("selected");
-    current.style.display = "none";
-    new_category.style.display = "block";
+    current.classList.toggle("transparent");
+    new_category.classList.toggle("transparent");
     currentCategory = trigger.dataset.type;
 }
 
@@ -398,7 +398,9 @@ function randomize(type) {
             break;
         case "traits":
             for (const [feature, data] of Object.entries(current)) {
-                data.selected = selectRandom(masterlist[feature]);
+                if(feature != "background"){
+                    data.selected = selectRandom(masterlist[feature]);
+                }
             }
             break;
         default:
