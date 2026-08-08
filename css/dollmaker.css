@@ -206,6 +206,12 @@ body {
     #clear {
         margin: 2px;
     }
+    main{
+        width: 95%;
+    }
+    #dollmaker{
+        width: 90%;
+    }
 }
 
 .pop-up {
@@ -300,4 +306,10 @@ body {
 .transparent{
     opacity: 0;
     pointer-events: none;
+}
+
+.invisible-text{
+    height: 0px;
+    width: 0px;
+    overflow: none;
 }

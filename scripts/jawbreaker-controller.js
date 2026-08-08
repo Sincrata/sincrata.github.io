@@ -102,9 +102,9 @@ function generateColorListeners() {
             }
         })
         keyboardEnable(color);
-        color.setAttribute("role", "button");
+        color.setAttribute("role", "radio");
         color.setAttribute("aria-label", color.dataset.hex);
-        color.setAttribute("tabindex", "3");
+        color.setAttribute("tabindex", "0");
     }
 
     //add on click event handlers for color input
@@ -137,14 +137,21 @@ function populateCategories() {
         const cat_div = document.getElementById(feature_type);
         const features_div = document.createElement("div");
         features_div.className = "features " + feature_type;
+        features_div.setAttribute("role", "radiogroup");
+        features_div.setAttribute("aria-hidden", "true");
 
         for (const [feature, images] of Object.entries(masterlist[feature_type])) { //for every feature and images pair in features
             const feature_div = document.createElement("div");
             feature_div.className = "feature";
-            feature_div.setAttribute("role", "button");
-            feature_div.setAttribute("tabindex", "0");
+            feature_div.setAttribute("role", "radio");
+            feature_div.setAttribute("tabindex", "-1");
+            if(feature_type == "body"){
+                feature_div.setAttribute("tabindex", "0");
+            }
             feature_div.setAttribute("data-type", feature_type);
             feature_div.setAttribute("data-feature", feature);
+            feature_div.setAttribute("role", "button");
+            feature_div.setAttribute("aria-label", feature + " " + feature_type);
 
             const img = document.createElement("img");
             img.setAttribute("data-type", feature_type);
@@ -182,6 +189,10 @@ function enablePopups() {
     const clear_btn = document.getElementById("clear");
     const random_btn = document.getElementById("random");
 
+    keyboardEnable(save_btn);
+    keyboardEnable(clear_btn);
+    keyboardEnable(random_btn);
+
     const overlay = document.getElementById("overlay");
     const save_popup = document.getElementById("save-confirm");
     const clear_popup = document.getElementById("clear-confirm");
@@ -190,14 +201,17 @@ function enablePopups() {
     save_btn.addEventListener("click", () => {
         overlay.classList.toggle("invisible");
         save_popup.classList.toggle("invisible");
+        save_popup.hidden = !save_popup.hidden;
     })
     clear_btn.addEventListener("click", () => {
         overlay.classList.toggle("invisible");
         clear_popup.classList.toggle("invisible");
+        clear_popup.hidden = !clear_popup.hidden;
     })
     random_btn.addEventListener("click", () => {
         overlay.classList.toggle("invisible");
         random_popup.classList.toggle("invisible");
+        random_popup.hidden = !random_popup.hidden;
     })
 
     const save_back = document.getElementById("save-back");
@@ -207,21 +221,27 @@ function enablePopups() {
     save_back.addEventListener("click", () => {
         overlay.classList.toggle("invisible");
         save_popup.classList.toggle("invisible");
+        save_popup.hidden = !save_popup.hidden;
     })
     clear_back.addEventListener("click", () => {
         overlay.classList.toggle("invisible");
         clear_popup.classList.toggle("invisible");
+        clear_popup.hidden = !clear_popup.hidden;
     })
     randomize_back.addEventListener("click", () => {
         overlay.classList.toggle("invisible");
         random_popup.classList.toggle("invisible");
+        random_popup.hidden = !random_popup.hidden;
     })
 
     overlay.addEventListener("click", () => {
         overlay.classList.toggle("invisible");
         random_popup.classList.add("invisible");
+        random_popup.hidden = true;
         save_popup.classList.add("invisible");
+        save_popup.hidden = true;
         clear_popup.classList.add("invisible");
+        clear_popup.hidden = true;
     })
 }
 
@@ -326,10 +346,25 @@ function categorySelection(trigger) {
     const new_category = document.getElementById(trigger.dataset.type);
     for (const category_select of document.getElementsByClassName("category")) {
         category_select.classList.remove("selected");
+        category_select.setAttribute("aria-selected", "false");
     }
     trigger.classList.toggle("selected");
+    trigger.setAttribute("aria-selected", "true");
+
     current.classList.toggle("transparent");
+    current.setAttribute("aria-hidden", "true");
+    current.firstElementChild.setAttribute("aria-hidden", "true");
+    for(let i = 0; i < current.firstElementChild.children.length; i++){
+        current.firstElementChild.children[i].setAttribute("tabindex", "-1");
+        current.firstElementChild.children[i].setAttribute("aria-hidden", "true");
+    }
+
     new_category.classList.toggle("transparent");
+    new_category.setAttribute("aria-hidden", "false");
+    for(let i = 0; i < new_category.firstElementChild.children.length; i++){
+        new_category.firstElementChild.children[i].setAttribute("tabindex", "0");
+        new_category.firstElementChild.children[i].setAttribute("aria-hidden", "false");
+    }
     currentCategory = trigger.dataset.type;
 }
 
